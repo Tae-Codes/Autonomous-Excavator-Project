@@ -33,7 +33,7 @@ class ExcavatorIMUNode(Node):
         current_time = self.get_clock().now().to_msg()
         self.imu_msg.header.stamp = current_time
         
-        # In reality, this will read these values from your IMU sensor
+        # In reality, this will read these values from the IMU sensor
         # For now, there will be dummy data
         self.imu_msg.orientation.x = 0.0
         self.imu_msg.orientation.y = 0.0
