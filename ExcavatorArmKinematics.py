@@ -29,7 +29,7 @@ bucket_angle = 20  # Angle of the bucket relative to the stick
 base_x, base_y = 350, 350
 
 # Constraints
-BOOM_MIN_ANGLE = 0      # Boom angle can be between 0° (horizontal) and 90° (vertical)
+BOOM_MIN_ANGLE = 0      
 BOOM_MAX_ANGLE = 87
 
 STICK_MIN_ANGLE = -110   
